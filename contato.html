@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kadwa:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/contato.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+
+    <title>Sweet Lux</title>
+</head>
+
+<body>
+    <header>
+        <div class="superior">
+            <div class="localização">
+                <a href="#">
+                    <img src="./src/svg/Localização.svg" alt="Endereço">
+                    Localizados na Avenida JK, 356
+                </a>
+            </div>
+
+            <div class="redes">
+                <a href="./blog.html" class="redes-sociais">
+                    <img src="./src/svg/Blog.svg" alt="Blog">
+                </a>
+
+                <a href="#" class="redes-sociais">
+                    <img src="./src/svg/Whatsapp.svg" alt="Whatsapp">
+                </a>
+
+                <a href="#" class="redes-sociais">
+                    <img src="./src/svg/Instagram.svg" alt="Instagram">
+                </a>
+            </div>
+        </div>
+
+        <div class="meio">
+            <div class="item-meio" id="texto">
+                <a href="./index.html">
+                    <h1 class="cimaT">Sweet</h1>
+                    <h1 class="baixoT">Lux</h1>
+                </a>
+            </div>
+
+            <div class="item-meio" id="busca">
+                <form action="/pesquisar" method="get" class="pesquisa">
+                    <input type="text" id="search" name="q" placeholder="Pesquisar...">
+                    <button type="submit" id="botao-pesquisa">
+                        <img src="./src/svg/Lupa.svg" alt="Busca" class="lupa">
+                    </button>
+                </form>
+            </div>
+
+            <div class="item-meio" class="rastrear">
+                <a href="#">
+                    <div class="botao-rastrear">
+                        <img src="./src/svg/Localização2.svg" alt="Rastrear o pedido">
+                    </div>
+                    <div class="botao-rastrear" id="texto-rastrear">
+                        <p class="cimaR">Onde está minha encomenda?</p>
+                        <p class="baixoR">Rastrear pedido</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item-meio">
+                <a href="#">
+                    <img src="./src/svg/Sacola.svg" alt="Sacola">
+                </a>
+            </div>
+        </div>
+
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="./index.html">Início</a>
+                </li>
+                <li>
+                    <a href="#">Coleções</a>
+                </li>
+                <li>
+                    <a href="#">PROMO BLACK: DESCONTOS DE ATÉ 70% VEJA MAIS</a>
+                </li>
+                <li>
+                    <a href="#">Fale Conosco</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="contatoForm">
+            <h1>Entre em contato</h1>
+            <label for="name">Nome completo:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Sua mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <div class="enviar">
+                <button type="submit">Enviar</button>
+
+                <div class="redes-form">
+                    <a href="#">
+                        <img src="./src/svg/Whatsapp.svg" alt="Whatsapp">
+                    </a>
+
+                    <a href="#">
+                        <img src="./src/svg/Instagram.svg" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class="rodapé">
+        <p>Sweet Lux &copy; Todos os direitos reservados </p>
+    </footer>
+
+    <script src="./src/js/contato.js"></script>
+</body>
+
+</html>

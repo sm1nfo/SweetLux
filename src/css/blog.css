@@ -33,7 +33,7 @@ header div {
 .redes {
     display: flex;
     align-items: center;
-    position: fixed;
+    margin-left: auto;
     right: 0;
 }
 

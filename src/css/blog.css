@@ -157,8 +157,12 @@ main {
     display: block;
 }
 
-.texto {
+.texto-full {
     display: none;
+}
+
+summary{
+    font-weight: 700;
 }
 
 .data {

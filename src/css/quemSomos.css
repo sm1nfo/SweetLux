@@ -130,18 +130,17 @@ nav ul li a {
     color: white;
 }
 
-main{
+main {
     max-width: 800px;
     font-family: 'Inter', sans-serif;
     margin-left: 22.5%;
 }
 
-main section{
+main section {
     margin-top: 40px;
-    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 10px;
-    
 }
 
 footer {
@@ -154,7 +153,7 @@ footer {
     text-align: center;
 }
 
-footer a{
+footer a {
     color: white;
     font-weight: 700;
     font-size: 18px;

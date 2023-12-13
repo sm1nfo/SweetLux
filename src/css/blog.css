@@ -192,3 +192,9 @@ footer {
     font-weight: 400;
     text-align: center;
 }
+
+footer a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
